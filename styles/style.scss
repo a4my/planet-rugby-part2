@@ -1,0 +1,16 @@
+$primaryColor: hsl(207, 82%, 13%);
+$primaryColor-light: hsl(207, 94%, 51%);
+
+@import './navbar';
+@import './header';
+@import './component-1';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
